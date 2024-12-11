@@ -28,6 +28,32 @@
 using namespace std;
 
 int main() {
+    int n;
+    cin >> n;
 
+    for (int i = 0; i < n; i++) {
+        int array[100];
+        int m;
+        cin >> m;
+
+        for (int j = 0; j < m; j++) {
+            cin >> array[j];
+        }
+
+        int k;
+        cin >> k;
+
+        for (int j = k - 1; j < m; j += k) {
+            int tmp = array[j];
+            array[j] = array[j - 1];
+            array[j - 1] = tmp;
+        }
+
+        for (int j = 0; j < m; j++) {
+            cout << array[j] << " ";
+        }
+
+        cout << endl;
+    }
     return 0;
 }
