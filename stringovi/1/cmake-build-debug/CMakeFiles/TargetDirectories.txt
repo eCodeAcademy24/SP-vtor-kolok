@@ -1,0 +1,3 @@
+D:/Predrag/Kurs/SP/Zadaci/SP-vtor-kolok/stringovi/1/cmake-build-debug/CMakeFiles/1.dir
+D:/Predrag/Kurs/SP/Zadaci/SP-vtor-kolok/stringovi/1/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Predrag/Kurs/SP/Zadaci/SP-vtor-kolok/stringovi/1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
